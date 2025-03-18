@@ -11,19 +11,19 @@ $red-color: rgb(200,0,20);
 $red-color-active: rgb(245, 0, 25);
 
 
-@font-face { font-family: 'FreeStyleRegular'; src: url(../public/fonts/FreeStyleScript.ttf) format('truetype');}
+@font-face { font-family: 'FreeStyleRegular'; src: url(./assets/fonts/FreeStyleScript.ttf) format('truetype');}
 $free-style: 'FreeStyleRegular', sans-serif;
 
-@font-face { font-family: 'RobotoRegular'; src: url(../public/fonts/Roboto-Regular.ttf) format('truetype');}
+@font-face { font-family: 'RobotoRegular'; src: url(./assets/fonts/Roboto-Regular.ttf) format('truetype');}
 $roboto-regular: 'RobotoRegular', sans-serif;
 
-@font-face { font-family: 'RobotoMedium'; src: url(../public/fonts/Roboto-Medium.ttf) format('truetype');}
+@font-face { font-family: 'RobotoMedium'; src: url(./assets/fonts/Roboto-Medium.ttf) format('truetype');}
 $roboto-medium: 'RobotoMedium', sans-serif;
 
-@font-face { font-family: 'RobotoBold'; src: url(../public/fonts/Roboto-Bold.ttf) format('truetype');}
+@font-face { font-family: 'RobotoBold'; src: url(./assets/fonts/Roboto-Bold.ttf) format('truetype');}
 $roboto-bold: 'RobotoBold', sans-serif;
 
-@font-face { font-family: 'RobotoBlack'; src: url(../public/fonts/Roboto-Black.ttf) format('truetype');}
+@font-face { font-family: 'RobotoBlack'; src: url(./assets/fonts/Roboto-Black.ttf) format('truetype');}
 $roboto-black: 'RobotoBlack', sans-serif;
 
 
