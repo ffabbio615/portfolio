@@ -36,8 +36,18 @@ function App() {
           <div className='image-container'>
             <img className={contact === false ? 'personal-image flip-reverse' : 'personal-image flip'} src="/images/fotoPerfilAmbienteExterno.jpg" alt="Imagem de Perfil" />
             <div className={contact === false ? 'contact-text fade-out' : 'contact-text fade-in'}>
-              <p>E-mail: fabiomarques.ads@gmail.com</p>
-              <p>Whatsapp: (21) 99889-9535</p>
+              <div>
+                <img className='email-icon' src="/images/emailIcon.svg" alt="Ícone de E-mail" />
+                <p>E-mail: fabiomarques.ads@gmail.com</p>
+              </div>
+              <div>
+              <a className='whatsapp-link'  target='_blank' href='https://api.whatsapp.com/send?phone=5521998899535'>
+                <img className='whatsapp-icon' src="/images/whatsappIcon.svg" alt="Ícone do Whatsapp" /> </a>
+                <div>
+                  <p>Whatsapp: (21) 99889-9535</p>
+                  <p>Ou clicando direto no ícone</p>
+                </div>
+              </div>
             </div>
           </div>
 
@@ -66,7 +76,7 @@ function App() {
         <div className='project-container'>
           <img className='project-image-group' src="/images/primeMockup.png" alt="Mockup de projeto" />
           <div className='project-informations-container'>
-            <p className='project-title'>Prime Language School</p>
+            <p className='project-title'>PRIME</p>
             <p className='project-subtitle'>Tecnologias utilizadas:</p>
             <div className='tecnologies-icons'>
               <img src="/images/viteIcon.png" alt="Ícone do GitHub" />
