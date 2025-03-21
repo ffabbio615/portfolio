@@ -2,6 +2,18 @@ import { useState } from 'react'
 import './App.scss'
 
 function App() {
+  
+  let vh = window.innerHeight * 0.01;
+  document.documentElement.style.setProperty('--vh', `${vh}px`);
+
+  window.matchMedia("(orientation: portrait)").addEventListener("change", (event) => {
+    if (event.matches) {
+      console.log("Modo Retrato");
+    } else {
+      console.log("Modo Paisagem");
+    }
+    window.location.reload();
+  });
 
   const [mode, setMode] = useState('portfolio');
   const [contact, setContact] = useState(false);
