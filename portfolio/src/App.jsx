@@ -98,7 +98,7 @@ function App() {
               <img src="/images/sassIcon.svg" alt="Ícone do GitHub" />
               <img src="/images/firebaseIcon.svg" alt="Ícone do GitHub" />
             </div>
-            <a className='project-link'  target='_blank' href='https://prime-rust-psi.vercel.app/'>Acessar</a> 
+            <a className='project-link'  target='_blank' href='https://prime-language-school.vercel.app//'>Acessar</a> 
             <a className='github-link' target='_blank' href='https://github.com/ffabbio615/primeLanguageSchool'><img src="/images/gitHubIcon.svg" alt="Ícone do GitHub" /></a>
           </div>
         </div>
