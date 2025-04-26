@@ -38,7 +38,7 @@ function App() {
     <>
       <header>
         <div className='header-container'>
-          <p className='portfolio-text'>{mode === 'portfolio' ? 'Meu Portfolio' : 'Projetos'}</p>
+          <p className='portfolio-text'>{mode === 'portfolio' ? 'Portfolio Provisório' : 'Projetos'}</p>
           <button onClick={changeMode} className='btn-page'>{mode === 'portfolio' ? 'Projetos' : 'Portfolio'}</button>
         </div>
       </header>
